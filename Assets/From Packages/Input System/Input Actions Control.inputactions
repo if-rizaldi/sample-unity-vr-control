@@ -1,0 +1,34 @@
+{
+    "name": "Input Actions Control",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ba235005-793f-46a0-a035-d49f5c9602bf",
+            "actions": [
+                {
+                    "name": "SwitchLamp",
+                    "type": "Button",
+                    "id": "d86a9532-07f2-49e3-bfec-8570b11f4805",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "51f950b6-ca06-446b-a8c3-905f8f4b093c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchLamp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
